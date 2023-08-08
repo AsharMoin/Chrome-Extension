@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 400px;
+  background-color:black;
+}
+#save-groups,
+#tab-btn,
+#delete,
+#input-btn {
+  background: linear-gradient(to bottom right, #dc143c, #00008b);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+#buttons button {
+  color: whitesmoke;
+}
+#input-el {
+  background-color: #292929;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+  height: 20px;
+  border-radius: 4px;
+}
+a,
+#groupLinkEl,
+#ulElm,
+#linkEl {
+  word-wrap: break-word;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 100px;
+  padding: 0px;
+  margin-top: 10px;
+  color: #888;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 20px;
+}
+
+a {
+  position: relative;
+}
+
+#groupLinkEl {
+  color: unset;
+}
+li {
+  padding: 10px 0;
+  position: relative;
+  width: 95%;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to bottom right, #dc143c, #00008b) ;
+  border-image-slice: 1;
+}
+#delete-item-btn {
+  right: 10px;
+  position: absolute;
+  width: auto; /* Let the button width adjust to the content */
+  height: auto;
+  font-size: x-small;
+  line-height: normal; /* Reset the line-height if it has been modified elsewhere */
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  margin-top: 2.5px;
+  background-color: transparent;
+  color: white;
+  z-index: 10;
+}
+/* Customize the scrollbar track (background) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the thumb on hover */
+}
+
+/* Customize the scrollbar track when scrollbar is actively being dragged */
+::-webkit-scrollbar-thumb:active {
+  background-color: #2c2c2c; /* Color of the thumb when active */
+}
+
+/* Customize the scrollbar track when the scrollbar is in the "track" area (not on the thumb) */
+::-webkit-scrollbar-track {
+  background-color: #363636; /* Color of the track area */
+  border-radius: 10px; /* Rounded corners for the track area */
+}
+
+/* Customize the scrollbar corner (when both horizontal and vertical scrollbars are present) */
+::-webkit-scrollbar-corner {
+  background-color: #f2f2f2; /* Color of the corner */
+}

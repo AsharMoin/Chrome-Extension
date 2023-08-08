@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1",
+    "name": "TabVault",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "Tab-vault-icon(1).png"
+    },
+    "permissions": [
+        "tabs",
+        "tabGroups"
+    ]
+}
+
