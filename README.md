@@ -1,5 +1,5 @@
 Chrome Extension - URL Saver
-![image](https://github.com/AsharMoin/TabVault-Chrome-Extension/assets/132712315/9ad7c836-31a0-4b55-aefd-3392ba1414b5)
+![image](https://github.com/AsharMoin/TabVault-Chrome-Extension/assets/132712315/888ff76d-1c41-4534-98d4-809c816c5450)
 
 Table of Contents
 Description
