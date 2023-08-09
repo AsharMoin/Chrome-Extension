@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   min-width: 400px;
   max-width: 400px;
+  max-height: 600px;
   background-color:black;
 }
 #save-groups,
@@ -48,6 +49,9 @@ a,
   text-decoration: none;
   list-style-type: none;
   line-height: 20px;
+}
+#ulElm {
+  max-height: 300px;
 }
 
 a {
